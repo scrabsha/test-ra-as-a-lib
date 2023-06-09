@@ -3,10 +3,8 @@
 
 mod visitor;
 
-use std::{thread, time::Duration};
-
 use ra_ap_base_db::SourceDatabaseExt;
-use ra_ap_hir::{Crate, Semantics};
+use ra_ap_hir::Semantics;
 use ra_ap_ide::{AnalysisHost, RootDatabase};
 use ra_ap_ide_db::symbol_index::SymbolsDatabase;
 use ra_ap_paths::AbsPathBuf;
