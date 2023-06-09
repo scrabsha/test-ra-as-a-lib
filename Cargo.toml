@@ -11,3 +11,14 @@ ra_ap_paths = "0.0.149"
 ra_ap_rust-analyzer = "0.0.149"
 ra_ap_hir = "0.0.149"
 ra_ap_ide = "0.0.149"
+ra_ap_syntax = "0.0.149"
+ra_ap_base_db = "0.0.149"
+ra_ap_vfs = "0.0.149"
+ra_ap_ide_db = "0.0.149"
+paste = "1.0.12"
+
+[profile.release]
+debug = true
+
+[rust]
+debuginfo-level = 1
