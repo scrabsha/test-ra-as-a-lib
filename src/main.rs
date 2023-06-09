@@ -76,7 +76,6 @@ fn collect_function_calls(
             let root = db.source_root(*root);
             let tmp = SymbolVisitor::visit_crate(&root, &semantics);
 
-            thread::sleep(Duration::from_secs(10));
             tmp
         })
         .collect::<Vec<_>>();
